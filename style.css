@@ -1,0 +1,11 @@
+.Poem {
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+}
+@media only screen and (min-width: 120px) and (max-width: 400px) {
+    .Poem {
+      word-break: break-all;
+    }
+  }
+
